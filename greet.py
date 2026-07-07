@@ -26,3 +26,4 @@ time=float(time)
 interest=(principal*rate*time)/100
 print("total " ,interest)
 """
+
