@@ -14,7 +14,7 @@ elif mark<90 and mark>=80:
     print("Grade: B")
 else :
     print("Grade is not good, go and study hard")
-"""
+
 
 
 
@@ -30,4 +30,4 @@ if age>=18:
 else:
     print("You are not eligible ")
 
-        
+        """
