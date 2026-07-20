@@ -1,0 +1,9 @@
+{
+    "name": "nafi",
+    "age": "23",
+    "city": "sudbury",
+    "title": [
+        "engineer",
+        "python"
+    ]
+}
