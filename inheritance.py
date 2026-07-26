@@ -4,6 +4,7 @@ class Granfather:                                           #multi-level
     y=5
 
     def sub(self):
+<<<<<<< HEAD
         print(self.x-self.y+ Granfather.m)      
 
     @staticmethod
@@ -26,6 +27,17 @@ class Father(Granfather):
 
     def addFather(self):
              return self.l + self.p
+=======
+        print(self.x-self.y+ Granfather.m)                                    #perent class
+
+    def mul(self):
+        print(self.x *self.y)
+
+
+
+class Father(Granfather):
+    pass
+>>>>>>> c80ee75a9d2b78ec8819b96a66fd0b1fb67ed2d2
 
 
 class Mother:
@@ -35,6 +47,7 @@ class Mother:
     def add(self):
         print(self.a + self.b)
 
+<<<<<<< HEAD
   
 
 
@@ -86,6 +99,31 @@ obj3.addFather()
 
 
 
+=======
+
+
+class son(Mother,Father):                                      #Multi -  inherit            #child class
+    pass
+
+
+
+obj = son()
+obj.sub()
+obj.mul()
+print(
+obj.y)
+print(obj.m)
+
+
+
+obj1= son()
+print(obj1.y)
+
+obj1.sub()
+obj1.add()
+print(obj1.a)
+      
+>>>>>>> c80ee75a9d2b78ec8819b96a66fd0b1fb67ed2d2
 
 
        
