@@ -1,4 +1,7 @@
+#import calculator
+from calculator import add ,sub
 
-
-num=range(1,10)
-print(*num)
+#print(calculator.add(2,3))
+#print(calculator.mul(2,3))
+print(add(2,3))
+print(sub(5,7))
