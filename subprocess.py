@@ -9,7 +9,7 @@ text=True
 
 print(result.stdout)
 
-
+                                #hash 
 import hashlib
 
 password= b"ABC12"
