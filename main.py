@@ -6,7 +6,6 @@ from calculator import add ,sub
 #print(add(2,3))
 print(sub(5,7))
 
-"""
 
 
 from single_file import add, x,Myclass
@@ -20,4 +19,11 @@ print(x)
 obj = Myclass()
 obj.mul( 2)
 
+"""
+
+
+
+import ostad
+
+print(ostad.add(5,5))
 
